@@ -1,0 +1,82 @@
+/* Information delivery */
+
+.page-section__delivery {
+  padding-bottom: 290px;
+}
+
+.delivery-info__item {
+  flex-basis: calc(100% / 4 - 30px);
+  margin-right: 40px;
+  margin: 0px;
+  padding: 0px;
+  text-align: center;
+  height: 55px;
+  width: 55px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.delivery-info__list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 0px;
+  padding: 0px;
+  padding-top: 100px;
+}
+
+.delivery-info__title--icon-settings {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.delivery-info__icon {
+  width: 65px;
+  height: 65px;
+  margin-bottom: 60px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  fill: #1abc9c;
+}
+
+.delivery-info__title--icon-money {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.delivery-info__title--icon-worldwide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.delivery-info__title--icon-shipping {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.delivery-info__title {
+  margin: 0px;
+  margin-bottom: 30px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.delivery-info__about {
+  padding: 0px;
+  margin: 0px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  font-weight: lighter;
+}

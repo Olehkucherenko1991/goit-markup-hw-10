@@ -1,0 +1,78 @@
+/* Footer */
+
+.footer-background {
+  background-image: url(../images/footer-ground.png);
+  height: 460px;
+  width: 100%;
+  padding-top: 100px;
+  background-position: center;
+  background-repeat: repeat;
+  background-color: #4dc5ab;
+}
+
+.footer {
+  padding-bottom: 27px;
+}
+
+.footer-line::after {
+  content: '';
+  display: block;
+  border-bottom: 2px solid #ffffff;
+  border-top: 2px solid #ffffff;
+  width: 165px;
+  height: 7px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  margin-top: 28px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #ffffff;
+  background-clip: content-box;
+}
+
+.footer-description {
+  text-align: center;
+  padding: 0px;
+  margin: 0px;
+  font-size: 16px;
+  font-weight: 300;
+  font-style: 'Open Sans', sans-serif;
+  color: #fbfefd;
+}
+
+.registration-form__email--registration {
+  width: 450px;
+  height: 60px;
+  padding-left: 30px;
+  border: 1px solid #ffffff;
+  border-radius: 5px 0 0 5px;
+  font-size: 16px;
+  font-weight: 300;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.registration-form__email {
+  display: flex;
+  justify-content: center;
+  padding-top: 40px;
+}
+
+.registration-form__email-button {
+  width: 90px;
+  height: 60px;
+  border: 2px solid #ffffff;
+  border-radius: 0 10px 10px 0;
+  overflow: hidden;
+  transition: 0.5s all ease;
+  cursor: pointer;
+}
+
+.registration-form__icon-button {
+  display: block;
+  width: 80px;
+  height: 50px;
+}
+
+.registration-form__email-button:hover {
+  transform: translateX(-5px) scale(1.05);
+}
