@@ -1,0 +1,26 @@
+.logo {
+  font-size: 30px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: 'Roboto', sans-serif;
+  font-weight: lighter;
+  color: #555252;
+  margin: 0px;
+  transition-timing-function: var(--timing-fn);
+
+  &:hover,
+  &:focus {
+    color: #aaa9a9;
+  }
+}
+
+.logo .logo-disign {
+  font-weight: bold;
+  color: #1abc9c;
+  transition-timing-function: var(--timing-fn);
+
+  &:focus,
+  &:hover {
+    color: #53cdb5;
+  }
+}
